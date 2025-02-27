@@ -31,7 +31,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          <div className='w-[50px] h-[50px] rounded-full overflow-hidden relative'>
+          {/* <div className='w-[50px] h-[50px] rounded-full overflow-hidden relative'>
             <Image
               src="/images/logo fb.jpg"
               alt="Hero image"
@@ -39,7 +39,7 @@ const Navbar = () => {
               width={400}
               height={400}
             />
-          </div>
+          </div> */}
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

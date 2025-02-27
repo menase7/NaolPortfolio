@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-800">
-              Hello, I&apos;m{" "} Amen
+              Hello, I&apos;m{" "} Naol
             </span>
             <br></br>
             <div className="text-3xl lg:text-5xl">
@@ -27,7 +27,7 @@ const HeroSection = () => {
                 1000,
                 "Video Editor",
                 1000,
-                "Logo maker",
+                "Team Leader",
                 1000,
               ]}
               wrapper="span"
@@ -64,7 +64,7 @@ const HeroSection = () => {
         >
           <div className="bg-[#181818] rounded-full w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative max-md:mt-5 overflow-hidden">
             <Image
-              src="/images/f74c55edc593407f66f5797d6c4b9819.jpg"
+              src="/images/naol1.jpg"
               alt="hero image"
               className="absolute"
               width={400}
