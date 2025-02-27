@@ -53,20 +53,24 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="w-auto h-[620px] overflow-hidden">
-          <img className="object-cover w-full h-full" src="/images/about-image.png" alt="about image" />
+          <img
+            className="object-cover w-full h-full"
+            src="/images/about-image.png"
+            alt="about image"
+          />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a versatile graphic designer with a strong focus on creating visually 
-          compelling designs, impactful logos, and engaging video content. 
-          My experience spans across Adobe Creative Suite, including Photoshop, 
-          Illustrator, After Effects, and Premiere Pro, where I bring ideas to life 
-          through thoughtful design and creative storytelling. I am passionate about
-           blending aesthetics with functionality, ensuring that every project not only 
-           looks great but also serves its purpose effectively. I am a fast learner, 
-           always eager to explore new techniques and trends, and I thrive in collaborative 
-           environments where I can contribute to creating outstanding visual content.
+            I am a versatile graphic designer with a strong focus on creating
+            visually compelling and functional designs. With expertise in Adobe
+            Creative Suite, including Photoshop and Illustrator, I bring ideas
+            to life through thoughtful design and creative storytelling. I am
+            passionate about blending aesthetics with functionality, ensuring
+            that every project not only looks great but also serves its purpose
+            effectively. A fast learner, I am always eager to explore new
+            techniques and trends, thriving in collaborative environments where
+            I can contribute to outstanding visual content.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
