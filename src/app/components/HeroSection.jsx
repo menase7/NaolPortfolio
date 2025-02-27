@@ -25,7 +25,7 @@ const HeroSection = () => {
               sequence={[
                 "Graphics Designer",
                 1000,
-                "Video Editor",
+                "Guitarist",
                 1000,
                 "Team Leader",
                 1000,
@@ -64,7 +64,7 @@ const HeroSection = () => {
         >
           <div className="bg-[#181818] rounded-full w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative max-md:mt-5 overflow-hidden">
             <Image
-              src="/images/naol1.jpg"
+              src="/images/naol3.jpg"
               alt="hero image"
               className="absolute"
               width={400}
